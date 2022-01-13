@@ -33,7 +33,7 @@ values."
    '(
      markdown
      shell
-     auto-git-pull
+     ;;auto-git-pull
      (go :variables
          go-tab-width 2
          go-use-gometalinter t)
@@ -48,7 +48,7 @@ values."
      emacs-lisp
      git
      ;; markdown
-     ;; org
+     org
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
