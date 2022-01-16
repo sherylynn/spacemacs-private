@@ -16,14 +16,12 @@
   '(
     )
 )
-;;(message (pwd ))
-(add-to-list 'display-buffer-alist
-  (cons "\\*Async Shell Command\\*.*" (cons #'display-buffer-no-window nil)))
+(message (pwd ))
 (async-shell-command "git -C ~/.spacemacs.d pull")
-;;(windmove-down )
+(windmove-down )
 ;;(switch-to-buffer "*Async Shell Command*")
-;;(fit-window-to-buffer)
-;;(windmove-up )
+(fit-window-to-buffer)
+(windmove-up )
 ;;(magit-pull-from-upstream )
 ;;(message (pwd ))
 

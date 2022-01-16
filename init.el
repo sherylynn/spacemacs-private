@@ -33,7 +33,7 @@ values."
    '(
      markdown
      shell
-     ;;auto-git-pull
+     auto-git-pull
      (go :variables
          go-tab-width 2
          go-use-gometalinter t)
