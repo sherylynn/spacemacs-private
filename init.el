@@ -34,9 +34,9 @@ values."
      markdown
      shell
      auto-git-pull
-     (go :variables
-         go-tab-width 2
-         go-use-gometalinter t)
+     ;;(go :variables
+     ;;    go-tab-width 2
+     ;;    go-use-gometalinter t)
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
